@@ -15,7 +15,7 @@ MongoClient.connect(url, (err, db) => {
 
   app.get('/typeaheadData', (req, res) => {
     typeaheadData
-      .find({})
+      .find({}, { _id: 0 })
       .toArray()
       .then(response => res.send(response))
       .catch(err => console.error(err))
