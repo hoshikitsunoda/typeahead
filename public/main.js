@@ -22,5 +22,15 @@ const suggest = (list, char) => {
 }
 
 $input.addEventListener('keyup', (event) => {
-
+  const char = event.key
+  const result = suggest(names, char)
+  if (char === 'Backspace') {
+    $ul.innerHTML = ''
+  }
+  else {
+    for (let i = 0; i < result.length; i++) {
+      const suggestion = "<li>" + result[i] + "</li>"
+      $ul.innerHTML += suggestion
+    }
+  }
 })
