@@ -1,0 +1,20 @@
+{
+  "name": "typeahead",
+  "version": "1.0.0",
+  "description": "A website for people who want to see the suggestions based on the letter they type in.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoshikitsunoda/typeahead.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoshikitsunoda/typeahead/issues"
+  },
+  "homepage": "https://github.com/hoshikitsunoda/typeahead#readme"
+}
