@@ -20,3 +20,7 @@ const suggest = (list, char) => {
   }
   return newSug
 }
+
+$input.addEventListener('keyup', (event) => {
+
+})
