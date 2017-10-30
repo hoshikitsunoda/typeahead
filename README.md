@@ -12,4 +12,4 @@ $ node index.js
 * Express
 * Node.js
 ##
-![typeahead](https://user-images.githubusercontent.com/27325328/32199663-d694b31e-bd8a-11e7-9dc9-cd539707d11d.gif)
+![typeahead](https://user-images.githubusercontent.com/27325328/32199818-91b48296-bd8b-11e7-84b5-6b26cb69baf1.gif)
